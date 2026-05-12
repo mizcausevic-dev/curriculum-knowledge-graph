@@ -6,7 +6,7 @@ In this case the pressure showed up around fragmented student support signals, c
 
 That was the opening for **curriculum-knowledge-graph**. The repo was designed around a simple idea: operators need more than visibility. They need evidence, priorities, and next actions that make sense under pressure. That is why the project is framed as education operations rather than as a generic app demo. The point is not just to show that data can be rendered or APIs can be wired together. The point is to show what a practical control surface looks like when the audience is student-success, curriculum, and EdTech governance teams.
 
-Existing tools missed the mark for understandable reasons. The available tooling landscape â€” LMS reporting, retention dashboards, and point-solution intervention tools â€” helped with record-keeping, scanning, reporting, or workflow coverage. What it still missed was a joined-up operational view of intervention pressure, learning-pathway friction, and governance evidence. In other words, the gap was not capability in isolation. The gap was operational coherence. The team responsible for day-to-day decisions still had to reconstruct the story manually.
+The surrounding toolchain was never useless. LMS reporting, retention dashboards, and point-solution intervention tools handled adjacent parts of the job reasonably well. The problem was that they still left out a joined-up operational view of intervention pressure, learning-pathway friction, and governance evidence. That left operators stitching together evidence by hand right when the environment was least forgiving.
 
 That shaped the design philosophy from the start:
 
