@@ -7,9 +7,9 @@ This log is intentionally written as an engineering record rather than a launch 
 ## [1.0.0] - 2026-05-12
 
 ### Released
-- Published \$name\ as a public, portfolio-grade education operations system.
+- Published **curriculum-knowledge-graph** as a public, portfolio-grade education operations system.
 - Packaged the current implementation, documentation, validation workflow, and proof surfaces into a repo that could be reviewed by engineering, product, and operating stakeholders.
-- Tightened the repo story around the real-world operating problem: institutions had fragmented visibility into student support, curriculum bottlenecks, and AI-use disclosure.
+- Tightened the repo story around the real-world operating problem: fragmented student support signals, curriculum bottlenecks, and AI-use disclosure gaps.
 
 ### Why this mattered
 - Existing approaches in LMS reporting, retention dashboards, and point-solution intervention tools were useful, but they surfaced metrics, but not the combined operational story institutions needed to act quickly and defensibly.
@@ -18,7 +18,7 @@ This log is intentionally written as an engineering record rather than a launch 
 ## [0.1.0] - 2026-01-17
 
 ### Shipped
-- Cut the first coherent internal version of the product shape behind \$name\.
+- Cut the first coherent internal version of the product shape behind **curriculum-knowledge-graph**.
 - Standardized the core objects, decision surfaces, and operator outputs around the repo's main working problem.
 - Established the first reviewable version of the architecture described as: Curriculum graph for courses, prerequisites, skills, outcomes, and pathway bottleneck analysis in higher education.
 
@@ -55,12 +55,12 @@ This log is intentionally written as an engineering record rather than a launch 
 ## [Idea Origin] - 2025-01-10
 
 ### Observed
-- The initial idea surfaced while looking at how teams were handling institutions had fragmented visibility into student support, curriculum bottlenecks, and AI-use disclosure.
+- The initial idea surfaced while looking at how teams were handling fragmented student support signals, curriculum bottlenecks, and AI-use disclosure gaps.
 - The recurring pattern was that people could often see fragments of the problem, but not the whole operational story in one place.
 
 ### Insight
 - The missing product was not another point solution. It was a clearer operating layer that made the work legible to student-success, curriculum, and EdTech governance teams.
-- That insight became the basis for \$name\.
+- That insight became the basis for **curriculum-knowledge-graph**.
 
 ## [Background Signals] - 2022-08-09
 
