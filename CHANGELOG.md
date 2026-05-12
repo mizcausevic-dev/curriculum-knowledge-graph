@@ -12,7 +12,8 @@ This log is intentionally written as an engineering record rather than a launch 
 - Tightened the repo story around the real-world operating problem: fragmented student support signals, curriculum bottlenecks, and AI-use disclosure gaps.
 
 ### Why this mattered
-- Existing approaches in LMS reporting, retention dashboards, and point-solution intervention tools were useful, but they surfaced metrics, but not the combined operational story institutions needed to act quickly and defensibly.
+- Existing approaches in LMS reporting, retention dashboards, and point-solution intervention tools were useful for adjacent workflows.
+- They still missed the core need: a joined-up operational view of intervention pressure, learning-pathway friction, and governance evidence.
 - This release made the repo readable as an operational capability rather than a narrow technical demo.
 
 ## [0.1.0] - 2026-01-17
