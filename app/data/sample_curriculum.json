@@ -1,0 +1,79 @@
+{
+  "institution": "Northstar Online University",
+  "program": "BS Information Systems",
+  "graph": {
+    "courses": [
+      {
+        "course_id": "IS-101",
+        "title": "Digital Foundations",
+        "term": "Fall Year 1",
+        "credits": 3,
+        "skills": ["digital-literacy", "communication"],
+        "outcomes": ["baseline-tech-fluency"]
+      },
+      {
+        "course_id": "IS-120",
+        "title": "Spreadsheet Modeling",
+        "term": "Fall Year 1",
+        "credits": 3,
+        "skills": ["spreadsheet-analysis", "quantitative-reasoning"],
+        "outcomes": ["business-analysis-basics"]
+      },
+      {
+        "course_id": "IS-210",
+        "title": "Data Systems",
+        "term": "Spring Year 2",
+        "credits": 4,
+        "skills": ["sql", "data-modeling", "systems-thinking"],
+        "outcomes": ["structured-data-fluency"]
+      },
+      {
+        "course_id": "IS-230",
+        "title": "Workflow Automation",
+        "term": "Spring Year 2",
+        "credits": 3,
+        "skills": ["process-design", "automation", "systems-thinking"],
+        "outcomes": ["workflow-orchestration"]
+      },
+      {
+        "course_id": "IS-320",
+        "title": "Analytics Engineering",
+        "term": "Fall Year 3",
+        "credits": 4,
+        "skills": ["dbt", "semantic-layer", "data-modeling"],
+        "outcomes": ["analytics-production-readiness"]
+      },
+      {
+        "course_id": "IS-330",
+        "title": "Applied Security Governance",
+        "term": "Fall Year 3",
+        "credits": 3,
+        "skills": ["policy-analysis", "risk-review", "access-governance"],
+        "outcomes": ["governance-operations"]
+      },
+      {
+        "course_id": "IS-410",
+        "title": "Capstone Systems Studio",
+        "term": "Spring Year 4",
+        "credits": 5,
+        "skills": ["systems-design", "analytics-production", "governance-operations"],
+        "outcomes": ["career-ready-systems-portfolio"]
+      }
+    ],
+    "prerequisites": [
+      {"source": "IS-101", "target": "IS-210"},
+      {"source": "IS-120", "target": "IS-210"},
+      {"source": "IS-120", "target": "IS-230"},
+      {"source": "IS-210", "target": "IS-320"},
+      {"source": "IS-230", "target": "IS-320"},
+      {"source": "IS-230", "target": "IS-330"},
+      {"source": "IS-320", "target": "IS-410"},
+      {"source": "IS-330", "target": "IS-410"}
+    ],
+    "skill_dependencies": [
+      {"skill": "data-modeling", "depends_on": ["spreadsheet-analysis", "quantitative-reasoning"]},
+      {"skill": "semantic-layer", "depends_on": ["sql", "data-modeling"]},
+      {"skill": "systems-design", "depends_on": ["systems-thinking", "analytics-production", "governance-operations"]}
+    ]
+  }
+}

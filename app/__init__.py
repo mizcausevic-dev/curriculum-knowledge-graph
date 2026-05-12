@@ -1,0 +1,1 @@
+"""Curriculum Knowledge Graph package."""
