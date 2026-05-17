@@ -40,7 +40,7 @@ bottleneck analysis in higher education.
 ## Local Run
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\curriculum-knowledge-graph"
+cd curriculum-knowledge-graph
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -m app.main
@@ -63,7 +63,7 @@ $env:PORT = "4710"
 ## Validation
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\curriculum-knowledge-graph"
+cd curriculum-knowledge-graph
 .\.venv\Scripts\python.exe -m unittest discover -s tests
 .\.venv\Scripts\python.exe scripts\run_demo.py
 .\.venv\Scripts\python.exe scripts\smoke_check.py
